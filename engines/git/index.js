@@ -4,6 +4,7 @@ export default class GitSearchEngine {
   isClientExposed = false;
   name = "Git (GitHub + GitLab)";
   bangShortcut = "git";
+  disabledByDefault = true;
 
   async executeSearch(query, page = 1, timeFilter, context) {
     const doFetch = context?.fetch ?? fetch;

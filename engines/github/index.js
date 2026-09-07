@@ -4,6 +4,7 @@ export default class GitHubRepoEngine {
   isClientExposed = false;
   name = "GitHub";
   bangShortcut = "github";
+  disabledByDefault = true;
 
   async executeSearch(query, page = 1, timeFilter, context) {
     const doFetch = context?.fetch ?? fetch;

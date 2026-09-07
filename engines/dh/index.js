@@ -4,6 +4,7 @@ export default class DockerHubEngine {
   isClientExposed = false;
   name = "Docker Hub";
   bangShortcut = "dh";
+  disabledByDefault = true;
 
   async executeSearch(query, page = 1, timeFilter, context) {
     const doFetch = context?.fetch ?? fetch;

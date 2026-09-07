@@ -4,6 +4,7 @@ export default class GitLabProjectEngine {
   isClientExposed = false;
   name = "GitLab";
   bangShortcut = "gl";
+  disabledByDefault = true;
 
   async executeSearch(query, page = 1, timeFilter, context) {
     const doFetch = context?.fetch ?? fetch;
