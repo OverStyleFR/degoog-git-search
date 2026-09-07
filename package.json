@@ -35,6 +35,12 @@
       "name": "GitLab",
       "description": "GitLab project search with !gitlab",
       "version": "1.0.0"
+    },
+    {
+      "path": "engines/dh",
+      "name": "Docker Hub",
+      "description": "Docker Hub image search with !dh",
+      "version": "1.0.0"
     }
   ]
 }
