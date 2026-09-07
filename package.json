@@ -1,0 +1,40 @@
+{
+  "name": "degoog-git-search",
+  "description": "Search GitHub repositories and GitLab projects directly from degoog using bang shortcuts",
+  "version": "1.0.0",
+  "author": "OverStyleFR",
+  "license": "MIT",
+  "private": false,
+  "engines": [
+    {
+      "path": "engines/git",
+      "name": "Git (GitHub + GitLab)",
+      "description": "Search GitHub repositories and GitLab projects at the same time with !git",
+      "version": "1.0.0"
+    },
+    {
+      "path": "engines/gh",
+      "name": "GitHub",
+      "description": "GitHub repository search with !gh",
+      "version": "1.0.0"
+    },
+    {
+      "path": "engines/github",
+      "name": "GitHub",
+      "description": "GitHub repository search with !github",
+      "version": "1.0.0"
+    },
+    {
+      "path": "engines/gl",
+      "name": "GitLab",
+      "description": "GitLab project search with !gl",
+      "version": "1.0.0"
+    },
+    {
+      "path": "engines/gitlab",
+      "name": "GitLab",
+      "description": "GitLab project search with !gitlab",
+      "version": "1.0.0"
+    }
+  ]
+}
